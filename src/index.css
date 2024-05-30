@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+.space-grotesk-uniquifier{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+:root{
+    --buttons: hsl(278, 68%, 11%);
+    --numbers: hsl(270, 3%, 87%);
+    --text: hsl(279, 6%, 55%);
+    --font-pro: "Space Grotesk", sans-serif;
+}
+input{
+    display: block;
+    padding:0.5rem 0 0.5rem 0;
+    border: 1px solid rgba(171, 162, 162, 0.474);
+    border-radius: 0.5em;
+    width: 100%;
+    cursor:pointer;
+}
+label{
+    font-weight: 500;
+    color: var(--buttons);
+    display: block;
+    margin-bottom: 0.4em;
+}
+.cj{
+    position: absolute;    
+
+}
+.gx{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'one one'
+    'tow tow'
+    'three four'
+    'five five';
+    gap: 1rem;
+}
+.g1{
+    grid-area: one;
+}
+.g2{
+    grid-area: tow;
+}
+.g3{
+    grid-area: three;
+}
+.g4{
+    grid-area: four;
+}
+.g5{
+    grid-area: five;
+}
