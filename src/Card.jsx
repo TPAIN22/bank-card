@@ -108,7 +108,7 @@ function changeHidden (){
                 <span className='absolute text-white md:text-4xl text-2xl left-11 md:top-52 md:left-36 top-44 pt-3'>{formattedNumber}</span>
                 <span className='absolute text-white md:text-xl text-sm md:top-72 pt-2 md:right-44  top-56 right-24'> {month}/{year} </span>
                 <span className='absolute text-white md:text-xl text-sm top-56 pt-2 left-8  md:top-72 md:left-36'>{name}</span>
-                <span className='absolute text-white text-2xl top-20 pt-2 right-14 md:bottom-48 md:right-28'>{cvc}</span>
+                <span className='absolute text-white md:text-5xl top-20 md:top-80 md:pt-44 right-14 md:right-28'>{cvc}</span>
                 
             </div>
             <div id='one' className='w-full h-full flex items-start md:items-center'> 
