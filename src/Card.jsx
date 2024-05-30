@@ -105,10 +105,10 @@ function changeHidden (){
                 <img src={BackCard} className='absolute w-3/4 top-7 right-6 md:top-96 md:left-48 md:w-4/6'/>
                 <img src={FrontCard} className='absolute w-9/12 top-28 pt-1 left-4 md:top-20 md:left-24 md:w-4/6'/>
                 <img src={Logoo} className='absolute top-32 left-10 md:top-28 md:left-32' />
-                <span className='absolute text-white text-4xl md:top-52 md:left-36'>{formattedNumber}</span>
-                <span className='absolute text-white text-xl md:top-72 md:right-44'> {month}/{year} </span>
-                <span className='absolute text-white text-xl md:top-72 md:left-36'>{name}</span>
-                <span className='absolute text-white text-2xl md:bottom-48 md:right-28'>{cvc}</span>
+                <span className='absolute text-white md:text-4xl text-2xl left-11 md:top-52 md:left-36 top-44 pt-3'>{formattedNumber}</span>
+                <span className='absolute text-white md:text-xl text-sm md:top-72 pt-2 md:right-44  top-56 right-24'> {month}/{year} </span>
+                <span className='absolute text-white md:text-xl text-sm top-56 pt-2 left-8  md:top-72 md:left-36'>{name}</span>
+                <span className='absolute text-white text-2xl top-20 pt-2 right-14 md:bottom-48 md:right-28'>{cvc}</span>
                 
             </div>
             <div id='one' className='w-full h-full flex items-start md:items-center'> 
